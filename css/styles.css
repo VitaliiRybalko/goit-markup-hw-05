@@ -1173,7 +1173,7 @@ footer p {
         text-decoration-line: underline;
 }
 .modal-form-checkbox:checked + .label-checkbox > .span-checkbox{
-    fill: var(--OCEAN, #404BBF);
+    background-color: var(--OCEAN, #404BBF);
         stroke-width: 1px;
         stroke: var(--OCEAN, #404BBF);
 }
