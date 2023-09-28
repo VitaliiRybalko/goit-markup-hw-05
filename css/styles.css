@@ -1141,6 +1141,7 @@ footer p {
     fill: transparent;
     stroke-width: 1px;
     stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
+
     
 
 
@@ -1156,6 +1157,8 @@ footer p {
         line-height: 14px;
         /* 116.667% */
         letter-spacing: 0.48px;
+        /* display: block; */
+
   }
 .link-policy{
     color: var(--IRIS, #4D5AE5);
@@ -1168,6 +1171,11 @@ footer p {
         line-height: 16px;
         letter-spacing: 0.48px;
         text-decoration-line: underline;
+}
+.modal-form-checkbox:checked + .label-checkbox > .span-checkbox{
+    fill: var(--OCEAN, #404BBF);
+        stroke-width: 1px;
+        stroke: var(--OCEAN, #404BBF);
 }
 
   
