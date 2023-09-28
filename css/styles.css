@@ -1065,7 +1065,7 @@ footer p {
     ;
     background-color: transparent;
     outline: transparent;
-    margin-bottom: 8px;
+   
     height: 40px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -1074,12 +1074,12 @@ footer p {
    
   }
   .form-input-box{
-    /* position: relative; */
+    position: relative;
 
 
   }
   .modal-form-div{
-    position: relative;
+    /* position: relative; */
     margin-bottom: 8px;
         
     }
@@ -1090,7 +1090,7 @@ footer p {
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+
  
   }
   
@@ -1114,8 +1114,6 @@ footer p {
     padding-top: 8px;
 
     color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
-    
-    
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -1123,7 +1121,7 @@ footer p {
     letter-spacing: 0.48px;
 
   }
-  .modal-textarea:focus-within{
+  .modal-textarea:focus{
     border: 1px solid var(--IRIS, #4D5AE5); 
 
   }
