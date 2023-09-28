@@ -1176,6 +1176,8 @@ footer p {
     background-color: var(--OCEAN, #404BBF);
         stroke-width: 1px;
         stroke: var(--OCEAN, #404BBF);
+        border: none;
+        fill: var(--cloud);
 }
 
   
