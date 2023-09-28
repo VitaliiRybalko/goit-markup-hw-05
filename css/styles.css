@@ -1121,6 +1121,15 @@ footer p {
      stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
   }
   .span-checkbox{
+    display: flex;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+
 
   }
   .label-checkbox{
