@@ -1080,9 +1080,13 @@ footer p {
   }
   .modal-form-div{
     /* position: relative; */
-    margin-bottom: 16px;
+    margin-bottom: 8px;
         
     }
+         .modal-form-div {
+            margin-bottom: 16px;}
+
+
     
   .form-box-svg{
     position: absolute;
