@@ -619,6 +619,7 @@ img {
     display: flex;
     gap: 16px;
     padding: 0;
+    margin-right: 80px;
    
 }
 .footer-list-icon{
@@ -1225,8 +1226,8 @@ footer p {
 }
 .form-footer{
     display: flex;
-    border-radius: 4px;
-    border: 1px solid var(--WHITE, #FFF);
+   
+    
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background-color:transparent;
     gap: 24px;
