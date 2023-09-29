@@ -1063,12 +1063,10 @@ footer p {
     position: relative;
     border-radius: 4px;
     border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
-    ;
     background-color: transparent;
-    C
-   
     height: 40px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline: transparent;
 
 
     
@@ -1303,8 +1301,9 @@ input::placeholder{
 }
 .telegram{
     fill: #FFF;
-    margin-left: 18px;
+    margin-left: 16px;
 }
+
   
 
 
